@@ -1,0 +1,91 @@
+body {
+    font-family: "Lato", sans-serif;
+    background: #08032e;
+    color: #ffffff;
+    line-height: 2.6;
+}
+
+.contact-section {
+    padding: 100px 40px;
+    max-width: 800px;
+    border-radius: 105px;
+}
+
+.contact-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width:97%;
+    padding: 12px;
+    border-radius: 10px;
+    background: #fff;
+    color: #08032e; 
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.btn {
+    background: #0ac0aa;
+    color: #08032e; 
+    padding: 8px 8px;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 1rem;
+    transition: 200ms;
+    font-weight: 600;
+    border: none;
+    border-radius: 180px;
+    cursor: pointer;
+    width: 60%;
+    margin-left: 160px;
+}
+.icons{
+text-align: center;
+}
+.icons a{
+    margin-right: 35px;
+}
+.fa-brands.fa-square-x-twitter{
+    color: hsl(0, 0%, 0%);  
+}
+.fa-brands.fa-square-x-twitter:hover{
+    color: hsl(0, 0%, 10%);  
+}
+.fa-brands.fa-youtube{
+    color: hsl(0, 100%, 50%);
+}
+.fa-brands.fa-youtube:hover{
+    color: hsl(0, 100%, 60%);
+}
+.fa-brands.fa-square-facebook{
+    color:hsl(229, 92%, 52%);
+}
+.fa-brands.fa-square-facebook:hover{
+    color:hsl(240, 92%, 62%);
+}
+.fa-brands.fa-instagram{
+    color :hsl(60, 56%, 98%);
+}
+.fa-brands.fa-instagram:hover{
+    color :hsl(30, 2%, 50%);
+}
+.fa-brands.fa-whatsapp{
+    color: hsl(120, 100%, 35%);
+}
+.fa-brands.fa-whatsapp:hover{
+    color: hsl(120, 100%, 45%);
+}
