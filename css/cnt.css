@@ -7,7 +7,7 @@ body {
 
 .contact-section {
     padding: 100px 40px;
-    max-width: 800px;
+    max-width: 400px;
     border-radius: 105px;
 }
 
@@ -34,7 +34,7 @@ textarea {
 
 textarea {
     resize: vertical;
-    height: 150px;
+    height: 100px;
 }
 
 .btn {
@@ -50,7 +50,7 @@ textarea {
     border-radius: 180px;
     cursor: pointer;
     width: 60%;
-    margin-left: 160px;
+    margin-left: 85px;
 }
 .icons{
 text-align: center;
